@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/942b456c95.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP 4.5.2-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- ECHO LIGHTBOX CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+    <!-- STYLE.CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body data-spy="scroll" data-target="main-nav">
+    <!-- NAVBAR -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3" id="main-nav">
+        <a class="navbar-brand mr-3 font-weight-bold" href="#"><i class="fas fa-child fa-2x text-warning"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item active mr-3">
+              <a class="nav-link  font-weight-bold text-uppercase" href="#home-section">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link font-weight-bold text-uppercase" href="#skills-section">Skills</a>
+            </li>
+            <li class="nav-item  dropdown mr-3">
+              <a class="nav-link dropdown-toggle font-weight-bold text-uppercase" href="#projects-section" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Preject 1</a>
+                <a class="dropdown-item" href="#">Preject 2</a>
+                <a class="dropdown-item" href="#">Preject 3</a>
+                <a class="dropdown-item" href="#">Preject 4</a>
+              </div>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link  font-weight-bold text-uppercase" href="#team-section" >Team</a>
+            </li>
+            <li class="nav-item mr-3">
+              <a class="nav-link  font-weight-bold text-uppercase" href="#contact-section" >Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <div class="input-group">
+            <input class="form-control" type="search" placeholder="Search">
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon1"><i class="fas fa-search text-muted"></i></span>
+            </div>
+          </div>
+          </form>
+        </div>
+      </nav>
+    </section>
+
+    <!-- HOME-SECTION -->
+    <section id="home-section" class="py-5 bg-info" >
+      <div class="container-fluid">
+        <div class="row align-items-center" style="height: 490px;">
+          <div class="col text-center">
+            <h1 class="display-2 text-capitalized">
+             <span class="font-weight-light text-warning">pure bootstrap</span> 
+              <span class="text-light font-weight-bold"> website</span></h1>
+            <h2 class="font-weight-light font-italic text-light py-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
+            <button class="btn btn-warning text-dark btn-lg mr-3">Press Here</button>
+            <button class="btn btn-danger btn-lg">Press Here</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills-section" class="text-center bg-light py-5">
+      <div class="container-fluid">
+        <div class="row ">
+          <div class="col">
+           <div class="display-2 text-warning">Skills</div> 
+           <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, laborum.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 pt-5 pb-5">
+            <h1 class="text-secondary">Development</h1>
+            <p class="lead text-secondary py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ullam harum maxime asperiores est omnis!</p>
+            <button class="btn btn-outline-warning">Learn More</button>
+          </div>
+          <div class="col-md-4 pb-5">
+            <h1 class="text-secondary">Design</h1>
+            <p class="lead text-secondary py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ullam harum maxime asperiores est omnis!</p>
+            <button class="btn btn-outline-warning">Learn More</button>
+          </div>
+          <div class="col-md-4 pb-5">
+            <h1 class="text-secondary">Creativity</h1>
+            <p class="lead text-secondary py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ullam harum maxime asperiores est omnis!</p>
+            <button class="btn btn-outline-warning">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS-SECTION -->
+    <section id="projects-section" class="py-5">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col">
+           <div class="display-2 text-warning pb-2">Projects</div> 
+           <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, laborum.</p>
+          </div>
+        </div>
+        <div class="row pt-4" >
+          <div class="col-md-3 pb-2">
+            <a href="img/project1.jpg" data-toggle="lightbox">
+              <img src="img/project1.jpg" class="img-fluid" style="border: 4px solid gray;">
+          </a>
+            <h2 class="text-warning">Project One</h2>
+            <p class="text-muted text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, fugit?</p>
+          </div>
+          <div class="col-md-3 pb-2">
+            <a href="img/project2.jpg" data-toggle="lightbox">
+              <img src="img/project2.jpg" class="img-fluid" style="border: 4px solid gray;">
+          </a>
+            <h2 class="text-warning">Project Two</h2>
+            <p class="text-muted text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, fugit?</p>
+          </div>
+          <div class="col-md-3 pb-2">
+            <a href="img/project3.jpg" data-toggle="lightbox">
+              <img src="img/project3.jpg" class="img-fluid" style="border: 4px solid gray;">
+          </a>
+            <h2 class="text-warning">Project Three</h2>
+            <p class="text-muted text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, fugit?</p>
+          </div>
+          <div class="col-md-3 onlarge">
+            <a href="img/project4.jpg" data-toggle="lightbox">
+              <img src="img/project4.jpg" class="img-fluid" style="border: 4px solid gray;">
+          </a>
+            <h2 class="text-warning">Project Four</h2>
+            <p class="text-muted text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, fugit?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM-SECTION -->
+    <section id="team-section" class="bg-secondary mt-3 py-5">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col">
+           <div class="display-2 text-warning pb-2">Team</div> 
+           <p class="lead text-light pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, laborum.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 pb-3">
+            <div class="card">
+              <img src="img/kid1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title text-secondary">Michael</h2>
+                <p class="card-text lead text-secondary">Lorem ipsum dolor sit amet.</p>
+                <div class="text-right">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-3 text-info"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x text-danger "></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-3">
+            <div class="card">
+              <img src="img/kid2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title text-secondary">Jack</h2>
+                <p class="card-text lead text-secondary">Lorem ipsum dolor sit amet.</p>
+                <div class="text-right">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-3 text-info"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x text-danger "></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 pb-3">
+            <div class="card">
+              <img src="img/kid3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title text-secondary">Ann</h2>
+                <p class="card-text lead text-secondary">Lorem ipsum dolor sit amet.</p>
+                <div class="text-right">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-3 text-info"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x text-danger "></i></a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRESS-SECTION -->
+    <section id="progress-section" class="py-5">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col">
+           <div class="display-2 text-warning pb-2">Progress</div> 
+           <p class="lead pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, laborum.</p>
+          </div>
+        </div>
+        <div class="row pb-4">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <h2 class="text-secondary">HTML</h2>
+            <div class="progress bg-secondary">
+             <div class="progress-bar bg-priary" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="50">50%</div>
+           </div>
+           <h2 class="text-secondary pt-3">CSS</h2>
+           <div class="progress bg-secondary">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">70%</div>
+           </div>
+           <h2 class="text-secondary pt-3">JavaScript</h2>
+           <div class="progress bg-secondary">  
+             <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">90%</div>
+           </div>
+           <h2 class="text-secondary pt-3">Bootstrap</h2>
+           <div class="progress bg-secondary">
+             <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">95%</div>
+           </div>
+          </div>
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT-SECTION -->
+    <section id="contact-section" class="py-5 bg-ligh">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col">
+           <div class="display-2 text-warning pb-2">Contact Us</div> 
+           <p class="lead pb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, laborum.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <h2 class="text-secondary text-center">Got Question ?</h2>
+            <p class="text-secondary text-center">Stay Connected</p>
+            <form action="mailto:hassaankhan5550@gmail.com">
+              <div class="form-group">
+                <label for="text">Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="text">Email</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="text">Message</label>
+                <textarea class="form-control" cols="2" rows="3"></textarea>
+              </div>
+              <div class="form-group">
+              <input type="submit" class="form-control btn btn-outline-warning">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <section id="footer" class="py-3 bg-secondary text-center text-light">
+      <h1 class="font-weight-light">Pure Bootstrap Project</h1>
+      <h3 class="font-weight-light font-italic py-3">Lorem ipsum dolor sit amet.</h3>
+      <a href=""><i class="fab fa-facebook fa-2x"></i></a>
+      <a href=""><i class="fab fa-google fa-2x text-danger px-4"></i></a>
+      <a href=""><i class="fab fa-twitter fa-2x text-info pr-4"></i></a>
+      <a href=""><i class="fab fa-youtube fa-2x text-danger"></i></a>
+      <p class="lead pt-3">
+        Copyright &copy; <span id="year"></span> Hassaan Khan @5550
+      </p>
+
+    </section>
+
+
+    <!-- JQUERY CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- BOOTSTRAP: POPPER.MIN.JS & BOOTSTRAP.MIN.JS-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ECHO LIGHTBOX JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js" integrity="sha512-YibiFIKqwi6sZFfPm5HNHQYemJwFbyyYHjrr3UT+VobMt/YBo1kBxgui5RWc4C3B4RJMYCdCAJkbXHt+irKfSA==" crossorigin="anonymous"></script>
+    <!-- CUSTOM JS -->
+    <script>
+          //INIT ECHO LIGHTBOX
+          $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+
+      // Get the current year of copyright
+      // $("#year").text(new Date().getfullyear());
+      document.getElementById("year").innerHTML = new Date().getFullYear();
+
+      //init scrollspy
+      $("body").scrollspy({
+        target: "#main-nav",
+      });
+
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("#main-nav a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+  </body>
+</html>
